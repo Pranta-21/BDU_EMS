@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
+$host = 'lmsserver.mysql.database.azure.com';
 $db = 'exam_system';
-$user = 'root';
-$pass = '';
+$user = 'pranta';
+$pass = 'pranta@2000';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
